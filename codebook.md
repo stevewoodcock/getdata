@@ -1,10 +1,11 @@
-The file ```tidy.txt``` contains the following columns:
+The file ```tidy.txt``` contains one row for each subject and
+activity. It has the following columns:
 
     subject
-      An identifier of the subject who carried out the experiment.
+      An identifier of the subject who carried out the experiment (1-30).
 
     activity
-      Its activity label
+      Its activity label. Values:
         WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING STANDING LAYING
 
     79 columns containing the average of the corresponding variable
