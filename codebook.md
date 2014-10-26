@@ -1,3 +1,5 @@
+The file ```tidy.txt``` contains the following columns:
+
     subject
       An identifier of the subject who carried out the experiment.
 
