@@ -80,3 +80,5 @@ tidy <- melt(data,
              id=c("subject", "activity"),
              measure.vars = grep('mean|std', names(data))) %>%
   dcast(subject+activity~variable, mean)
+
+write.table(tidy, "tidy.txt", row.names=FALSE)
